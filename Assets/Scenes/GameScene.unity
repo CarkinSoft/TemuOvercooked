@@ -215,13 +215,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 215729577}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 6.17883, y: -0, z: 6.08922}
+  m_LocalRotation: {x: 0.22414394, y: -0.25000003, z: 0.12940949, w: 0.9330127}
+  m_LocalPosition: {x: 14.069069, y: 10.289989, z: -8.792791}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 28.879, y: -27.808, z: 8.499}
 --- !u!114 &215729580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -360,7 +360,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
-  m_ConstrainProportionsScale: 1
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -375,7 +375,7 @@ GameObject:
   - component: {fileID: 609998452}
   - component: {fileID: 609998451}
   m_Layer: 0
-  m_Name: CinemachineCamera
+  m_Name: CineMachineCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -576,7 +576,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 46, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 45.97, y: 0, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -741,7 +741,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6039124237732241204, guid: bc8f2256ea8624a67aa23c3e44a8ae38, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.57
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 6039124237732241204, guid: bc8f2256ea8624a67aa23c3e44a8ae38, type: 3}
       propertyPath: m_LocalPosition.y
@@ -945,7 +945,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6039124237732241204, guid: bc8f2256ea8624a67aa23c3e44a8ae38, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.28
       objectReference: {fileID: 0}
     - target: {fileID: 6039124237732241204, guid: bc8f2256ea8624a67aa23c3e44a8ae38, type: 3}
       propertyPath: m_LocalPosition.y
