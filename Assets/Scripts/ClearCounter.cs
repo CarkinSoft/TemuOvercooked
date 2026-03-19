@@ -13,16 +13,13 @@ public class ClearCounter : MonoBehaviour
     {
         if (testing && Input.GetKeyDown(KeyCode.T))
         {
-            if (kitchenObject != null)
-            {
+            if (kitchenObject != null){
                 kitchenObject.SetClearCounter(secondClearCounter);
             }
         }
     }
-    public void Interact()
-    {
-        if (kitchenObject == null)
-        {
+    public void Interact() {
+        if (kitchenObject == null){
             Transform kitchenObjectTransform = Instantiate(kitchenObjectSO.prefab, counterTopPoint);
             kitchenObjectTransform.GetComponent<KitchenObject>().SetClearCounter(this);
         }
